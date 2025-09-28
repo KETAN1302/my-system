@@ -279,7 +279,7 @@ export default function DashboardPage() {
                   className="sr-only peer"
                 />
                 <div
-                  className={`w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-2 peer-focus:ring-green-50 rounded-full peer dark:bg-gray-700 transition-colors duration-200 ${
+                  className={`w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-2 peer-focus:ring-white rounded-full peer dark:bg-gray-700 transition-colors duration-200 ${
                     serverOnline ? "bg-green-500" : "bg-red-500"
                   }`}
                 ></div>
@@ -328,7 +328,7 @@ export default function DashboardPage() {
                   className="sr-only peer"
                 />
                 <div
-                  className={`w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-2 peer-focus:ring-green-50 rounded-full peer dark:bg-gray-700 transition-colors duration-200 ${
+                  className={`w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-2 peer-focus:ring-white rounded-full peer dark:bg-gray-700 transition-colors duration-200 ${
                     dbConnected ? "bg-green-500" : "bg-red-500"
                   }`}
                 ></div>
@@ -376,7 +376,7 @@ export default function DashboardPage() {
                   className="sr-only peer"
                 />
                 <div
-                  className={`w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-2 peer-focus:ring-green-50 rounded-full peer dark:bg-gray-700 transition-colors duration-200 ${
+                  className={`w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-2 peer-focus:ring-white-50 rounded-full peer dark:bg-gray-700 transition-colors duration-200 ${
                     internetConnected ? "bg-green-500" : "bg-red-500"
                   }`}
                 ></div>
@@ -423,7 +423,7 @@ export default function DashboardPage() {
                   className="sr-only peer"
                 />
                 <div
-                  className={`w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-2 peer-focus:ring-green-50 rounded-full peer dark:bg-gray-700 transition-colors duration-200 ${
+                  className={`w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-2 peer-focus:ring-white rounded-full peer dark:bg-gray-700 transition-colors duration-200 ${
                     authActive ? "bg-green-500" : "bg-red-500"
                   }`}
                 ></div>
@@ -470,7 +470,7 @@ export default function DashboardPage() {
                   className="sr-only peer"
                 />
                 <div
-                  className={`w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-2 peer-focus:ring-green-50 rounded-full peer dark:bg-gray-700 transition-colors duration-200 ${
+                  className={`w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-2 peer-focus:ring-white rounded-full peer dark:bg-gray-700 transition-colors duration-200 ${
                     apiActive ? "bg-green-500" : "bg-red-500"
                   }`}
                 ></div>
