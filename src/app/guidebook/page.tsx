@@ -32,7 +32,7 @@ export default function GuidebookPage() {
             </h1>
           </div>
           <p className="text-white/90 text-base sm:text-xl text-center max-w-xs sm:max-w-xl mb-2">
-            Your reference for safe and effective use of the system dashboard.
+            Your reference for safe and effective use of the system dashboard
           </p>
         </div>
       </section>
